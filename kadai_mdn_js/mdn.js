@@ -3,7 +3,7 @@ const today = new Date();
 console.log(today);
 const [year, month, day] = [
     today.getFullYear(),
-    today.getMonth(),
+    today.getMonth() + 1,
     today.getDate(),
 ];
 
