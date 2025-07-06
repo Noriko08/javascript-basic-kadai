@@ -1,7 +1,7 @@
 //関数squareの定義
 const square = (x) => {
-    console.log(x * x);
+    return x * x;
 }
 
-//関数呼び出し
-square(10);
+//関数の戻り値を出力
+console.log(square(10));
